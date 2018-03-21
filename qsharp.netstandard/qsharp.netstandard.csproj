@@ -10,6 +10,10 @@ Repackaged for .NET Standard</Description>
     <Company>exxeleron, macrobert.com</Company>
     <Copyright>Copyright © exxeleron 2011-2015, macrobert.com © 2018</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/machonky/qsharp.netstandard</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/machonky/qsharp.netstandard/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/machonky/qsharp.netstandard.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>

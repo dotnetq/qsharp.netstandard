@@ -17,6 +17,6 @@ For more details please refer to the [documentation](doc/Readme.md)
 Installation
 ============
 
-To install qSharp from [NuGet Gallery](http://www.nuget.org/packages/qSharp/):
+To install qSharp from [NuGet Gallery](https://www.nuget.org/packages/qsharp.netstandard/):
 
 ``nuget install qSharp``
