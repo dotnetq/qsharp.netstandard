@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <RootNamespace>qSharp</RootNamespace>
+    <Description>Interprocess communication between C# and kdb+. 
+Repackaged for .NET Standard</Description>
+    <PackageTags>kdb+ c# qSharp</PackageTags>
+    <Version>2.3.0.0</Version>
+    <Company>exxeleron, macrobert.com</Company>
+    <Copyright>Copyright © exxeleron 2011-2015, macrobert.com © 2018</Copyright>
+  </PropertyGroup>
+
+</Project>
