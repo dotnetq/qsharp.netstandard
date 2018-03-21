@@ -1,9 +1,6 @@
-# qsharp.standard
-qsharp ported to .NET Standard
-
 <!-- img src="http://www.devnet.de/fileadmin/images/DEVnet_Logo2014.png" width="150px" height="150px"/-->
 
-qSharp 2.3 (Unofficial port to .NET Standard)
+qSharp.netstandard 2.3 (Unofficial port to .NET Standard)
 ==========
 
 The q/kdb+ interface is implemented as a set of C# classes and provides:
