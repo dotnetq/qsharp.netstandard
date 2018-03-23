@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FFE39C66-0
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qsharp.core.netstandard", "qsharp.core.netstandard\qsharp.core.netstandard.csproj", "{44490EF6-350F-4575-9BC8-9A041F0F8660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{30CCBDD8-702A-4C4B-8026-215C29220CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30CCBDD8-702A-4C4B-8026-215C29220CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30CCBDD8-702A-4C4B-8026-215C29220CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44490EF6-350F-4575-9BC8-9A041F0F8660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44490EF6-350F-4575-9BC8-9A041F0F8660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44490EF6-350F-4575-9BC8-9A041F0F8660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44490EF6-350F-4575-9BC8-9A041F0F8660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

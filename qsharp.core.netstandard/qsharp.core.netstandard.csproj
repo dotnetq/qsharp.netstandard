@@ -3,8 +3,10 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <RootNamespace>qSharp</RootNamespace>
-    <Description>Interprocess communication between C# and kdb+. 
-Repackaged for .NET Standard</Description>
+    <Description>Interprocess communication between C# and kdb+.
+Repackaged for .NET Standard. 
+qsharp.core separates data classes from i/o to reduce coupling
+</Description>
     <PackageTags>kdb+ c# qSharp</PackageTags>
     <Version>2.3.1.0</Version>
     <Company>exxeleron, macrobert.com</Company>
@@ -15,9 +17,5 @@ Repackaged for .NET Standard</Description>
     <RepositoryUrl>https://github.com/machonky/qsharp.netstandard.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="qsharp.core.netstandard" Version="2.3.1" />
-  </ItemGroup>
 
 </Project>

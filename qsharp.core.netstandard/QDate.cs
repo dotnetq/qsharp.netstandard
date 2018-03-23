@@ -46,7 +46,7 @@ namespace qSharp
             : this()
         {
             this._datetime = datetime;
-            Value = (int) (datetime - QTypes.QEpoch).TotalDays;
+            Value = (int) (datetime - QTemporalTypes.QEpoch).TotalDays;
         }
 
         public int Value { get; private set; }

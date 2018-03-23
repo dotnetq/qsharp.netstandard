@@ -48,7 +48,7 @@ namespace qSharp
             : this()
         {
             _datetime = datetime;
-            Value = (long) (1e6*(datetime - QTypes.QEpoch).TotalMilliseconds);
+            Value = (long) (1e6*(datetime - QTemporalTypes.QEpoch).TotalMilliseconds);
         }
 
         public long Value { get; private set; }
@@ -68,7 +68,7 @@ namespace qSharp
         {
             if (_datetime == DateTime.MinValue)
             {
-                _datetime = QTypes.QEpoch.AddMilliseconds((double) Value/1000000L);
+                _datetime = QTemporalTypes.QEpoch.AddMilliseconds((double) Value/1000000L);
             }
             return _datetime;
         }
@@ -103,7 +103,7 @@ namespace qSharp
                         (long)
                             (1e6*
                              (DateTime.ParseExact(date.Substring(0, 23), DateFormat, CultureInfo.InvariantCulture) -
-                              QTypes.QEpoch).TotalMilliseconds) + long.Parse(date.Substring(23)));
+                              QTemporalTypes.QEpoch).TotalMilliseconds) + long.Parse(date.Substring(23)));
             }
             catch (Exception e)
             {

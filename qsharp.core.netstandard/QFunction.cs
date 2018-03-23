@@ -52,7 +52,7 @@ namespace qSharp
         /// <summary>
         ///     Creates representation of q function with given q type code.
         /// </summary>
-        internal static QFunction Create(byte qTypeCode)
+        public static QFunction Create(byte qTypeCode)
         {
             return new QFunction(qTypeCode);
         }
