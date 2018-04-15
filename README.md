@@ -19,4 +19,4 @@ Installation
 
 To install qSharp from [NuGet Gallery](https://www.nuget.org/packages/qsharp.netstandard/):
 
-``nuget install qSharp``
+``nuget install qSharp.netstandard``
